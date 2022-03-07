@@ -1,6 +1,10 @@
 <template>
   <h1>登陆</h1>
-  <p>{{ mainStore.name }}</p>
+  <p>
+    用户名：{{ mainStore.name }}
+    <br />
+    长度: {{ mainStore.nameLength }}
+  </p>
 </template>
 
 <script setup lang="ts">
