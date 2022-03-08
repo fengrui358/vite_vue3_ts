@@ -36,7 +36,7 @@ console.log(import.meta.env.VITE_APP_WEB_URL)
   </p>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 a {
   color: #42b983;
 }
@@ -50,6 +50,6 @@ code {
   background-color: #eee;
   padding: 2px 4px;
   border-radius: 4px;
-  color: #304455;
+  color: $test-color;
 }
 </style>
