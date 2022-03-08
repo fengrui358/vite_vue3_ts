@@ -5,12 +5,13 @@
     <br />
     长度: {{ mainStore.nameLength }}
     <br />
-    <button @click="updateName">直接修改store中的name</button>
+    <NButton type="info" @click="updateName">直接修改store中的name</NButton>
   </p>
 </template>
 
 <script setup lang="ts">
 import { useMainStore } from '@/store/main'
+import { NButton } from 'naive-ui'
 
 const mainStore = useMainStore()
 
