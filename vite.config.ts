@@ -17,4 +17,14 @@ export default defineConfig({
     https: false,
     proxy: {},
   },
+  build: {
+    terserOptions: {
+      compress: {
+        // eslint-disable-next-line camelcase
+        drop_console: true,
+        // eslint-disable-next-line camelcase
+        drop_debugger: true,
+      },
+    },
+  },
 })
